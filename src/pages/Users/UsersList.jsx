@@ -33,7 +33,7 @@ function UsersList() {
             {title}
           </h1>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex justify-center flex-wrap -m-4">
           {!isLoading &&
             users.map((user) => <UserCard key={user.id} user={user} />)}
         </div>
